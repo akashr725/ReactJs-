@@ -5,6 +5,8 @@ import FunCounter from './Components/FunCounter';
 import Galary from './Components/Galary';
 import StateHook from './Components/StateHook';
 import StateHookTwo from './Components/StateHookTwo';
+import UseCallback from './Components/UseCallback';
+import UsememoHook from './Components/UseMemoHook';
 
 function App() {
 
@@ -13,7 +15,9 @@ function App() {
     //<StateHook></StateHook>
     /* <StateHookTwo></StateHookTwo> */
     //<Galary></Galary>
-    <FeedbackForm/>
+    // <FeedbackForm/>
+    // <UsememoHook/>
+    <UseCallback/>
   );
 }
 
